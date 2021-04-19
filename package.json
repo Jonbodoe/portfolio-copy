@@ -1,6 +1,6 @@
 {
   "homepage" : "http://jonbodoe.github.io/portfolio-copy",
-  "name": "portfolio",
+  "name": "portfolio-copy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
