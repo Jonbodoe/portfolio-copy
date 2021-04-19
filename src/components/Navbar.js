@@ -25,10 +25,13 @@ export default function NavBar(location) {
                         <NavLink exact activeClassName={location.location === '#contact'? '' : 'active'} to={`${process.env.PUBLIC_URL}/`}>Home</NavLink>
                     </li>
                     <li className="nav-item px-3">
-                        <NavLink exact smooth activeClassName={location.location === '#contact'? 'active' : ''}  to={`${process.env.PUBLIC_URL}/#contact`}>Contact</NavLink>
+                        <NavLink exact activeClassName={'active'} to={`${process.env.PUBLIC_URL}/contact`}>Contact</NavLink>
                     </li>
                     <li className="nav-item px-3">
-                        <NavLink activeClassName="active" to={`${process.env.PUBLIC_URL}/works`}>Works</NavLink>
+                        <NavLink activeClassName="active" to={`${process.env.PUBLIC_URL}/blog`}>Blog</NavLink>
+                    </li>
+                    <li className="nav-item px-3">
+                        <NavLink activeClassName="active" to={`${process.env.PUBLIC_URL}/works/web`}>Works</NavLink>
                     </li>
                     <li className="nav-item px-3">
                         <NavLink activeClassName="active"  to={`${process.env.PUBLIC_URL}/resume`} target="_blank">Resume</NavLink>

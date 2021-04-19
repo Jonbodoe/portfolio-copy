@@ -17,7 +17,7 @@ const Home = (anchor) => {
         <div className="row h-100">
           <div className="col-md-8">
           </div>
-          <div className="col-md-4 d-flex justify-content-center h-100 ">
+          <div id="description" className="col-md-4 d-flex justify-content-center h-100 ">
             <div className="align-self-center text-white py-5">
               <h1 className="font-weight-bolder border-bottom-white">Jonathan Le</h1>
               <h3 className="text-secondary">
@@ -39,10 +39,10 @@ const Home = (anchor) => {
               <h1 className="font-weight-bolder px-md-5">About Me</h1>
               <h3 className="font-weight-bolder px-md-5 text-primary">Hey There!</h3>
               <p className="px-md-5">
-                I am currently a Junior at Thomas Jefferson
+                I am currently a senior at Thomas Jefferson
                 Univeristy studying Web Development and Design.
-                I like having fun with the things that I build and
-                make, and I also enjoy biking and skating around 
+                Aside from wanting to learn more about Web-App 
+                development, I also illustrate and bike around 
                 the Philadelphia area!
           </p>
             </div>
@@ -78,9 +78,9 @@ const Home = (anchor) => {
           {workCategory}
         </div>
       </section>
-      <section id="contact">
+      {/* <section id="contact">
         <Contact/>
-      </section>
+      </section> */}
       <Footer />
     </div>
 

@@ -239,14 +239,14 @@ const works = [
         subCategory: paint,
         tools: 'Hardstock paper, Paint, Ink',
     },
-    {
-        mainImg: 'kodak.png',
-        title: 'Kodak',
-        description: 'a boy with a wolf',
-        category: illustration,
-        subCategory: digital,
-        tools: 'Photoshop',
-    },
+    // {
+    //     mainImg: 'kodak.png',
+    //     title: 'Kodak',
+    //     description: 'a boy with a wolf',
+    //     category: illustration,
+    //     subCategory: digital,
+    //     tools: 'Photoshop',
+    // },
     {
         mainImg: 'chill.jpg',
         title: 'Stay Chill',

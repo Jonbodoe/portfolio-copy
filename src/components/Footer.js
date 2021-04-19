@@ -4,7 +4,7 @@ import '../App.css';
 
 export default function Footer() {
   return (
-    <footer className="text-dark container-fluid pb-4">
+    <footer className="text-dark container-fluid py-4">
       <div className="row d-flex justify-content-center">
           <div className="align-self-center">
             <img src={logo} className="App-logo" alt="logo" />

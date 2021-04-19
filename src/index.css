@@ -267,6 +267,9 @@ img.icon-lg {
   .rounds {
     border-radius: 4px;
   }
+  #description {
+    display: none
+  }
 }
 @media (max-width: 991.98px) {
   .spacer {
