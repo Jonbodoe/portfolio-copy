@@ -35,7 +35,7 @@ export default function WebWidget() {
                                         }
                                         <div className="py-4 d-flex justify-content-center">
                                             <Link to={`/works/${element.category}/${element.url}`}>
-                                                <button type="button" className="btn button bg-orange text-center shadow-sm text-white">More Details ></button>
+                                                <button type="button" className="btn button bg-orange text-center shadow-sm text-white">More Details</button>
                                             </Link>
                                         </div>
                                     </div>

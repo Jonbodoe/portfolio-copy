@@ -17,8 +17,8 @@ import {
   TransitionGroup,
   CSSTransition
 } from 'react-transition-group';
-import Contact from './components/Contact.js';
-import Blog from './components/Blog';
+// import Contact from './components/Contact.js';
+// import Blog from './components/Blog';
 
 
 
@@ -43,15 +43,12 @@ const App = ({ location }) => {
             <Route path={`${process.env.PUBLIC_URL}/resume`}>
               <Resume />
             </Route>
-            <Route path={`${process.env.PUBLIC_URL}/blog`}>
-              <Blog />
-            </Route>
             <Route exact path={`${process.env.PUBLIC_URL}/`}>
               <Home/>
             </Route>
-            <Route path={`${process.env.PUBLIC_URL}/contact`}>
+            {/* <Route path={`${process.env.PUBLIC_URL}/contact`}>
               <Contact/>
-            </Route>
+            </Route> */}
           </Switch>
         </CSSTransition>
       </TransitionGroup>

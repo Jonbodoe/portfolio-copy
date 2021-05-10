@@ -25,7 +25,7 @@ export default function GraphicWidget() {
                                             <p>{element.description}</p>
                                             <div className="py-3 d-flex justify-content-center">
                                                 <Link to={`/works/${element.category}/${element.url}`}>
-                                                    <button type="button" className="btn button bg-orange text-center shadow-sm text-white">More Details ></button>
+                                                    <button type="button" className="btn button bg-orange text-center shadow-sm text-white">More Details</button>
                                                 </Link>
                                             </div>
                                         </div>

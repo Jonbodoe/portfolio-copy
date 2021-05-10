@@ -5,7 +5,7 @@ const categories = [
         color: 'bg-primary'
     },
     {
-        title: 'Graphic Design',
+        title: 'Graphic & UI Designs',
         id: 'graphics',
         color: 'bg-green'
     },

@@ -5,8 +5,12 @@ import html from '../../img/html5-brands.svg';
 import bootstrap from '../../img/bootstrap-brands.svg';
 import javascript from '../../img/js-brands.svg';
 import php from '../../img/php-brands.svg';
-import mysql from '../../img/database-solid.svg'
-
+import mysql from '../../img/database-solid.svg';
+import node from '../../img/nodejs.svg';
+import wordpress from '../../img/wordpress.svg';
+import redux from '../../img/redux.svg';
+import material from '../../img/material-ui.svg';
+import express from '../../img/express.svg';
 
 const web = "web"
 const webDev = 'Web Development';
@@ -22,6 +26,110 @@ const paint = "Paint";
 const works = [
 
     // WEBBBBBBBBB
+    {
+        mainImg: 'wildfireICS.png',
+        title: 'JavaScript Full-Stack Web-Application',
+        topic: 'Wildfire ICS',
+        url: 'wildfire-ics',
+        date: '2021 / Senior Project',
+        objective: 'Creating a fullstack web-application that utilizes Javascript Libraries and Frameworks for my final capstone project',
+        idea: 'To create a JavaScript Web Application for Wildfire Chiefs to manage and locate wildfires based on the ICS systems utilizing \'crowdsourced\' information',
+        process: 'Before building the application, I had to conduct additional research on how wildfires are handled based on the ICS systems and other protocols that are involved when handling and reporting wildfires. I had to conduct interviews with people who had experience working with either structural and wildland wildfires to gain further insight and to further improve on the product. Additionally, I also researched more into the feasibility of crowdsourcing information to detect occurrences based on location from social media. ',
+        design: 'The design process of the application was dependent on how Material UI design system’s stylized its components. I wanted to have this application to have a very simple style with enough information for the Wildfire Chief (also known as the Incident Commander), to evaluate the incidents. As a result, I ensured that the design of the application had simple design layouts, minimal color palette with a few highlighting colors, and providing short-copy for further explanation of the UI component.',
+        development: 'The development process of the application used Redux for state management, Material UI for design systems, and Node.js with Express.js for API management. Utilizing Redux Toolkit for the first time was quite an interesting process, since I\'m more familiar with standard Redux. After understanding how Redux Toolkit works, it became easier to read and update state through the React UI components and Formik’s forms (a React-based library for form management). The most difficult part of the project was to ensure that DRY principles were implemented whenever possible and understanding how to efficiently use Redux Toolkit throughout the application. ',
+        secondaryImg: 'wildfireICSincidents.png',
+        ternaryImg: 'wildfireICScases.png',
+        resultImg: 'wildfireICS.png',
+        category: web,
+        subCategory: webDev,
+        primary: true,
+        tools: [react, redux, node, express, material],
+        supportImg: true,
+        detailId: 1,
+        githubRepo: true,
+        githubLink: 'https://github.com/Jonbodoe/Wildfire',
+        website: 'https://wildfireics-app.herokuapp.com',
+        wireframes: true,
+        wireframesLink: 'https://xd.adobe.com/view/0ac8097b-060b-44e0-a19d-1da7acb8669a-5f9b/'
+    },
+    {
+        mainImg: 'bineshomepage.jpg',
+        title: 'WordPress Development',
+        topic: 'Bines Portfolio Site',
+        url: 'bines-portfolio',
+        date: '2020 / Senior Project',
+        objective: 'Creating a WordPress site utilizing ACF, custom templating, and PHP',
+        idea: 'To create a portfolio site for an artist who needed a site to showcase their artworks',
+        process: 'The requirements of the project was to utilize standard WordPress development practices that use common popular plugins, page template building, utilizing WordPress hooks, and writing functionalities in PHP. ',
+        design: 'The design of the project is to focus on the artworks on the page rather than the website design itself. My friend who I built the site for wanted the website design to be very minimal with a huge emphasis on the artworks themselves. He provided examples of what websites components he liked and disliked and I utilized each aspect into this website design. ',
+        development: 'The Development of the project was a learning process because I had to understand the WordPress files hierarchy. After understanding the hierarchy it made the development process a bit easier because I know which files belong to which section. Also understanding which functions goes into functions.php as well as knowing which WordPress hooks to use took some time to understand. However I eventually was able to understand which functions needed to be enqueued in functions.php as well as understanding some of the basic WordPress hooks.',
+        secondaryImg: 'binesartwork.jpg',
+        ternaryImg: 'binesartwork.jpg',
+        resultImg: 'binesartworkpage.jpg',
+        category: web,
+        subCategory: webDev,
+        primary: true,
+        tools: [wordpress, bootstrap, php, css],
+        supportImg: true,
+        detailId: 1,
+        githubRepo: false,
+        githubLink: '',
+        website: 'https://jeffersonjon.wpengine.com/',
+        wireframes: false,
+        wireframesLink: ''
+    },
+    {
+        mainImg: 'JonHome.jpg',
+        title: 'React Portfolio Site',
+        topic: 'Jonathan Gene Photography',
+        url: 'jonathan-gene-portfolio',
+        date: '2020 / Client Project',
+        objective: 'Creating a Portfolio site that emphasizes the photographer\'s images',
+        idea: 'To create a portfolio site for an artist who needed a site to showcase their photography',
+        process: 'The requirements of the project was simple, to create a portfolio site that has a fixed navigation on the left hand-side and a two column image section for both landscape and portrait photos.',
+        design: 'The design of the project is to focus on the photography on the page. The client for the project wanted to have the design to be simple with a lot of negative white space in-between the images themselves. In addition, whenever a user clicks on the image, it will expand into a lightbox module that can view other images.s',
+        development: 'The development of the project utilized create-react-app as well as utilizing bootstrap for layout styling. The hardest part of the project was trying to build a custom lightbox that can view other images. However it became relatively simple as I used the component’s state to keep track of the selected image’s id and to increase or decrease whenever the user clicks on the right or left arrow button to change the image.',
+        secondaryImg: 'JonContact.jpg',
+        ternaryImg: 'JonLightbox.jpg',
+        resultImg: 'JonHome.jpg',
+        category: web,
+        subCategory: webDev,
+        primary: true,
+        tools: [react, bootstrap, css],
+        supportImg: true,
+        detailId: 1,
+        githubRepo: false,
+        githubLink: '',
+        website: 'https://jonathangene.com/',
+        wireframes: false,
+        wireframesLink: ''
+    },
+    {
+        mainImg: 'WeatherApp.png',
+        title: 'React & Node Single Page Application',
+        topic: 'Weather App',
+        url: 'weather-app',
+        date: '2020 / Personal Project',
+        objective: 'Creating a single page web-app that utilizes React.js, Node.js, and API consumption',
+        idea: 'To create a weather app that utilizes API information through React.js and Node.js',
+        process: 'Understanding how to communicate from React’s client-side to Node’s server-side was relatively easy after understanding how fetch API works. I made sure when developing the app, I handle the API request and CORS within the server-side of the application.',
+        design: 'The design of the project was to use a simple yet interesting color palette that I typically don’t use often. The web-app’s design layout and color palette was quite experimental compared to my usual color palettes of always utilizing standard color such as having a white background with a blue accent color. ',
+        development: 'The development of the project utilized create-react-app with a node.js and express.js backend server. The most tricky part developing the application was to have a user’s input value to be sent back to the server-side to get the user’s desired API output. After understanding how the client-side interacts with the server-side and vice versa, it became clear that I have to store the values within the server-side’s API query string. ',
+        secondaryImg: 'WeatherAppInitial.png',
+        ternaryImg: 'WeatherAppSearch.png',
+        resultImg: 'WeatherApp.png',
+        category: web,
+        subCategory: webDev,
+        primary: true,
+        tools: [react, node, express, bootstrap, css],
+        supportImg: true,
+        detailId: 1,
+        githubRepo: true,
+        githubLink: 'https://github.com/Jonbodoe/WeatherApp',
+        website: 'https://weather-app-jonbodoe.herokuapp.com/',
+        wireframes: false,
+        wireframesLink: ''
+    },
     {
         mainImg: 'railpix.jpg',
         title: 'Content Management System',

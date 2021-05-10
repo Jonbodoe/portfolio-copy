@@ -94,9 +94,15 @@ export default function WebView() {
               <h3 className="font-weight-bolder product text-primary">Product</h3>
               <h3 className="text-secondary boldish">See how it works!</h3>
               <div className="text-dark">
-                <div>Github Repository <a className="" href={work.githubRepo ? work.githubLink : ''} target="_blank" rel="noopener noreferrer">Link</a></div>
-                {!work.website ? <div className="text-secondary">Website currently being re-edited, check github link for progress</div> :
+                {
+                  work.githubRepo ? <div>Github Repository <a className="" href={work.githubLink} target="_blank" rel="noopener noreferrer">Link</a></div> : <></>
+                }
+                {
+                  !work.website ? <div className="text-secondary">Website currently being re-edited, check github link for progress</div> :
                   <div>{work.topic} Website <a className="" href={work.website ? work.website : ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+                }
+                {
+                  work.wireframes ? <div>Wireframes <a className="" href={work.wireframesLink} target="_blank" rel="noopener noreferrer">Link</a></div> : <></>
                 }
               </div>
             </div>

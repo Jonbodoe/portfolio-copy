@@ -39,10 +39,10 @@ const Home = (anchor) => {
               <h1 className="font-weight-bolder px-md-5">About Me</h1>
               <h3 className="font-weight-bolder px-md-5 text-primary">Hey There!</h3>
               <p className="px-md-5">
-                I am currently a senior at Thomas Jefferson
+                I am college graduate from Thomas Jefferson
                 Univeristy studying Web Development and Design.
                 Aside from wanting to learn more about Web-App 
-                development, I also illustrate and bike around 
+                development using Javascript Libraries and Frameworks, I also illustrate and bike around 
                 the Philadelphia area!
           </p>
             </div>
@@ -78,9 +78,9 @@ const Home = (anchor) => {
           {workCategory}
         </div>
       </section>
-      {/* <section id="contact">
+      <section id="contact">
         <Contact/>
-      </section> */}
+      </section>
       <Footer />
     </div>
 
