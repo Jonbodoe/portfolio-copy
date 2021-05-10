@@ -40,9 +40,9 @@ const Home = (anchor) => {
               <h3 className="font-weight-bolder px-md-5 text-primary">Hey There!</h3>
               <p className="px-md-5">
                 I am college graduate from Thomas Jefferson
-                Univeristy studying Web Development and Design.
+                University majoring in Web Development and Design.
                 Aside from wanting to learn more about Web-App 
-                development using Javascript Libraries and Frameworks, I also illustrate and bike around 
+                development, I also illustrate and bike around 
                 the Philadelphia area!
           </p>
             </div>
